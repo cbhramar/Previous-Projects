@@ -433,7 +433,7 @@ int main()
     Sum h(new Ratio(new primary("a"), new primary("b")), new Product(new Ratio(new Difference(new Ratio(new primary("x"), new primary("a")), new Exponent(new Sum(new Exponent(new primary("x"), new primary("2")), new primary("2")), new primary("n"))), new Sum(new Product(new primary("5"), new primary("x")), new primary("c"))), new Ratio(new primary("5"), new primary("x"))));
     h.print();
     cout << endl;
-    cout << "Oh dear lord! What have I done ?!\n";
+    // cout << "Oh dear lord! What have I done ?!\n";
     h.differentiate();
     cout << endl;
     cout << endl;
