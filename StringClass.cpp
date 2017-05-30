@@ -1,5 +1,5 @@
 /*
- * File: String.cpp
+ * File: StringClass.cpp
  * Create a string class. Any object of the class can be equated to another string or char*. The constructor should 
  * be able to construct a string from another string or a char*. The "+" operator can be used for concatenation.
  * It is also possible to list the Strings in dictionary order, and to convert them entirely in lower case.

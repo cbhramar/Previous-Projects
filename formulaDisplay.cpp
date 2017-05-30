@@ -1,5 +1,5 @@
 /*
- * File: display.cpp
+ * File: formulaDisplay.cpp
  * Brief: A C++ program to display formulae and their derivatives in human readable form in the terminal.
  * The code uses classes and inheritence; creating a base formula class which is the parent class
  * to various specialised classes. 
