@@ -5,8 +5,6 @@
  * to various specialised classes. 
  */
 
-
-
 #include <iostream>
 #include <cmath>
 
