@@ -2,6 +2,7 @@
  * File: EnglishToPiglatin.cpp
  * The code converts a string given in english to the same string in piglatin
  */
+
 #include <iostream>
 #include <string>
 #include <cctype>
