@@ -15,15 +15,16 @@ int main(int argc, char const *argv[]) {
 
 long exp(int a, int b) {
 	int y = b;
-	long r = a;
-	while (!(y < 2 )) {
-		if (y%2 == 0) {
-			r = r*r;
-			y = y/2;
-		}
-		else {
+	long r = 1;
+
+	while (y != 0) {
+		if (y%2 != 0) {
 			r = r*a;
 			--y;
+		}
+		else {
+			a = a*a;
+			y = y/2;
 		}
 	}
 	return r;
